@@ -1,0 +1,54 @@
+AC3Db
+MATERIAL "unlit" rgb 0.000 0.000 0.000 amb 1 1 1 emis 0 0 0 spec 0.0 0.0 0.0 shi 0 trans 0
+MATERIAL "lit" rgb 1.000 1.000 1.000 amb 1 1 1 emis 0 0 0 spec 0.0 0.0 0.0 shi 0 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "platforms"
+texture "Textures/Terrain/asphalt.png"
+numvert 8
+-61.5235 1967.56 662.606
+-44.5041 1969.9 676.778
+-47.0638 1971.86 679.852
+-64.0831 1969.48 665.679
+-61.5235 1967.56 662.606
+-44.5041 1969.9 676.778
+-47.0638 1971.86 679.852
+-64.0831 1969.48 665.679
+numsurf 5
+SURF 0
+mat 0
+refs 4
+3 0 0.75
+2 0 0.75
+1 0 0.5
+0 0 0.5
+SURF 0
+mat 0
+refs 4
+5 0 0.5
+4 0 0.5
+0 0 0.5
+1 0 0.5
+SURF 0
+mat 0
+refs 4
+7 0 0.5
+6 0 0.5
+2 0 0.5
+3 0 0.5
+SURF 0
+mat 0
+refs 4
+0 0 0.5
+4 0 0.5
+7 0 0.5
+3 0 0.5
+SURF 0
+mat 0
+refs 4
+6 0 0.5
+5 0 0.5
+1 0 0.5
+2 0 0.5
+kids 0
